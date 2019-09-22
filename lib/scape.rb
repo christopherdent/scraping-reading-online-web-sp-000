@@ -7,6 +7,6 @@ doc = Nokogiri::HTML(html)
 
 
 
-p doc.css(".text-danger")
+p doc.css(".text-danger").text
 
 
